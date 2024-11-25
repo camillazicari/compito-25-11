@@ -181,5 +181,29 @@ footer a {
 
 /* MEDIA QUERY 992PX */
 @media screen and (min-width: 992px) {
+    nav li {
+        display: inline;
+    }
+
+    html {font-size: 90%;}
+
+    h1 {
+        font-size: 3em;
+    }
     
+    table {
+        margin: 4.5em auto;
+        width: 65%;
+    }
+
+    input {
+        width: 70%;
+        height: 3.5em;
+        padding: 13px;
+    }
+
+    button {
+        width: 13%;
+        height: 3.5em;
+    }
 }
