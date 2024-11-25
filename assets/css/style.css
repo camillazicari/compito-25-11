@@ -261,7 +261,8 @@ footer a {
 
   header nav {
     position: absolute;
-    top: 33%;
     left: 80%;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
