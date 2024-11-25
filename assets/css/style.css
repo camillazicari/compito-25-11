@@ -75,6 +75,10 @@ section h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+#badge {
+display: none;
+}
+
 h1 {
   font-size: 2.6rem;
   font-weight: bold;
@@ -201,6 +205,15 @@ footer a {
 
 /* MEDIA QUERY 992PX */
 @media screen and (min-width: 992px) {
+
+  body {
+    background-position: top;
+  }
+
+header {
+  padding: 0.8em
+}
+
   nav li {
     display: inline;
   }
@@ -211,6 +224,15 @@ footer a {
 
   h1 {
     font-size: 3em;
+  }
+
+  #badge {
+    width: 3.7em;
+    padding: 3px;
+    display: block;
+    border: 4px solid #00A2C8;
+    outline: 4px solid #A22973;
+    margin-bottom: 0.8em;
   }
 
   table {
@@ -228,12 +250,30 @@ footer a {
     width: 13%;
     height: 3.5em;
   }
+
+  footer {
+    font-size: 0.9em;
+    padding: 1.5em;
+  }
+
+  footer address {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
 }
 
 /* MEDIA QUERY 1200PX */
 @media screen and (min-width: 1200px) {
+
   html {
     font-size: 85%;
+  }
+
+  body {
+    background-position: center;
   }
 
   header {
@@ -291,15 +331,11 @@ footer a {
   }
 
   footer {
-    font-size: 1em;
-    padding: 1.5em;
-  }
+    _font-size: 1em;
+    }
 
   footer address {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
+    width: 55%;
     line-height: 2;
-    padding-bottom: 1em;
   }
 }
