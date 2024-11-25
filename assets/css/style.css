@@ -233,12 +233,12 @@ footer a {
 /* MEDIA QUERY 1200PX */
 @media screen and (min-width: 1200px) {
   html {
-    font-size: 60%;
+    font-size: 85%;
   }
 
   header {
     text-align: left;
-    padding: 1em;
+    padding: 0.8em;
     position: relative;
   }
 
@@ -247,7 +247,6 @@ footer a {
   header p {
     display: inline-block;
     margin-bottom: 0;
-    font-size: 1.2em;
   }
 
   header div img {
@@ -261,8 +260,46 @@ footer a {
 
   header nav {
     position: absolute;
-    left: 80%;
+    left: 77%;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  main {
+    padding: 1.5em 1.5em;
+  }
+
+  iframe, section {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  iframe {
+    width: 49.7%;
+    height: 250px;
+  }
+
+  section {
+    width: 49.7%;
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  aside div {
+    display: inline-block;
+    width: 33%;
+  }
+
+  footer {
+    font-size: 1em;
+    padding: 1.5em;
+  }
+
+  footer address {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+    padding-bottom: 1em;
   }
 }
